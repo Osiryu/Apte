@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*
+{
+  margin: 0px;
+  padding:0px;
+  font-family: 'Comfortaa';
+  background-color: rgba(0,0,0,0);
+}
+
+body
+{
+  background-image : url("ressources/background2.png");
+}
+.logo
+{
+  height: 260px;
+  margin-right: auto;
+}
+
+header
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 8%;
+}
+
+.links, li, a
+{
+  display:inline-block;
+  padding: 0px 20px;
+  color: #707070;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  font-size: 20px;
+}
+.links:first-child
+{
+  background-color:rgba(252, 144, 3, 0.7);
+  border-radius: 30px;
+  padding: 15px 10px 10px 10px;
+  margin-left: 10px;
+}
+
+.links, li, a:hover
+{
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.links:first-child:hover
+{
+  background-color:rgb(252, 144, 3);
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(255, 170, 0);
+  color: white;
+  text-align: center;
+  padding: 15px 0px 13px 0px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s ease;
+  font-size: 20px;
+}
+
+.mail
+{
+  color: white;
+  font-size: 20px;
+}
+.section
+{
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+
+}
+.vignette1
+{
+  background-color: rgba(235, 168, 52,0.70);
+  border-radius: 30px;
+  width: 500px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin: 10px;
+}
+.vignette2
+{
+  background-color: rgba(255, 217, 0 ,0.70);
+  border-radius: 30px;
+  width: 500px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin: 10px;
+}
+.vignette3
+{
+  background-color: rgba(255, 166, 0,0.70);
+  border-radius: 30px;
+  width: 500px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin: 10px;
+}
+.vignette4
+{
+  background-color: rgba(255, 200, 0,0.70);
+  border-radius: 30px;
+  width: 500px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin: 10px;
+}
+.vignette5
+{
+  background-color: rgba(255, 234, 0,0.70);
+  border-radius: 30px;
+  width: 500px;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin: 10px;
+}
+.title
+{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.text
+{
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.section2
+{
+  margin-top: 10px;
+
+  display: inline-flex;
+  justify-content: space-around;
+
+}
+
+.section2
+{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+
+.photo
+{
+  width: 100%;
+  justify-content: center;
+  display: inline-flex;
+  position: absolute;
+  top: 1750px;
+  left: 0px;
+}
+
+.cesu
+{
+  height: 200px;
+  margin-bottom: 100px;
+}

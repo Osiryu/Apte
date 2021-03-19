@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*
+{
+  margin: 0px;
+  padding:0px;
+  font-family: 'Comfortaa';
+  background-color: rgba(0,0,0,0);
+  scroll-behavior: smooth;
+}
+
+body
+{
+  background-image : url("ressources/background2.png");
+  height: 1500px;
+  overflow-x: hidden;
+}
+.logo
+{
+  height: 260px;
+  margin-left: 30px;
+}
+
+/*----------------CAROUSSEL--------------------------------------*/
+/*-----------------------INTRO FINI----------------------------------*/
+.introduction
+{
+  position: absolute;
+  top: 610px;
+  width: 50%;
+  padding: 10px 0px 0px 0px;
+  margin-left: 10px;
+}
+  .intro_title
+  {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .intro_text
+  {
+    font-size: 30px;
+  }
+/*-----------------------INTRO FINI----------------------------------*/
+
+.cliquerici a
+{
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 30px;
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  padding:10px 10px 7px 10px;
+  transition: 0.5s ease;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: rgba(0,0,0,0);
+  color: white;
+  transition: 0.5s ease;
+  margin-bottom: 0px;
+}
+
+.cliquerici:hover a
+{
+
+  background-color: white;
+  color: #F97D00;
+  border-radius: 30px;
+
+  transition: 0.5s ease;
+
+  background-color: white;
+  color: #F97D00;
+  transition: 0.5s ease;
+}
+
+
+.link_box
+{
+  position: absolute;
+  right: 73px;
+  width: 40%;
+  /*background-color: red;*/
+}
+  .liens
+  {
+    /*background-color: red;*/
+    width: 100%;
+    display: inline-flex;
+    margin: 5px 5px 5px 0px;
+  }
+    .vignette1
+    {
+      width: 50%;
+      margin: 10px 10px 10px 10px;
+      background-color: rgba(255,255,255,0.16);
+      border-radius: 30px;
+      font-size: 30px;
+      text-align: center;
+      height: 280px;
+      padding: 0px
+    }
+
+
+
+.vignette
+{
+  background-color: rgba(255,255,255,0.16);
+  border-radius: 30px;
+  font-size: 20px;
+  width: 33%;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  margin: 0px 10px 10px 10px;
+  height: 280px;
+}
+
+.vign_logo
+{
+  padding: 10px 10px 10px 10px;
+}
+p
+{
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+
+.liens2
+{
+  width: auto;
+  display: inline-flex;
+  margin: 5px 0px 0px 0px;
+}
+
+.pourquoi
+{
+  position: absolute;
+  top: 950px;
+  width: 30%;
+}
+.pourquoi2
+{
+  position: absolute;
+  top: 950px;
+  right: 50px;
+  width: 60%;
+}
+.pk_title
+{
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.pk_text
+{
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.team_title
+{
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 1100px;
+}
+
+.team_orga
+{
+  width: 100%;
+  position: relative;
+  top: 1100px;
+  display: inline-flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team_title
+{
+  margin: 10px 10px 10px 0px;
+}
+.pp
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  border-radius: 75px;
+}
+
+.personne
+{
+  margin: 20px;
+}
+.name
+{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 0px
+}
+.fonction
+{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 5px
+}
+
+.Comment
+{
+  background-color: rgba(252, 219, 3,0.7);
+  margin: 20px;
+  position: relative;
+  top: 1200px;
+  padding : 20px;
+  text-align: center;
+  border-radius: 30px;
+  color: white;
+}
+.comment_title
+{
+  font-size: 30px;
+}
+.com_title
+{
+  text-align: left;
+  font-size: 20px;
+  margin-bottom:5px;
+}
+.com_text
+{
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+
+.links, li, a
+{
+  display:inline-block;
+  padding: 0px 20px;
+  color: #707070;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.photo
+{
+  width: 20%;
+  justify-content: space-between;
+  display: inline-flex;
+  position: absolute;
+  top: 250px;
+  left: 20px;
+
+}
+
+.cesu
+{
+  height: 50px;
+}
+
+
+
+
+
+
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(255, 170, 0,0.5);
+  color: white;
+  text-align: center;
+  padding: 15px 0px 13px 0px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s ease;
+  font-size: 20px;
+}
+
+.footer:hover
+{
+  background-color: rgb(255, 170, 0);
+  transition: 0.5s ease;
+}
+.mail
+{
+  color: white;
+  font-size: 20px;
+}
+.footer:first-child
+{
+  margin-right: 20px;
+}

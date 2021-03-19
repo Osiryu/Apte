@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*
+{
+  margin: 0px;
+  padding:0px;
+  font-family: 'Comfortaa';
+  background-color: rgba(0,0,0,0);
+}
+
+body
+{
+  background-image : url("ressources/background2.png");
+}
+.logo
+{
+  height: 260px;
+  margin-right: auto;
+}
+
+header
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 8%;
+}
+
+.links, li, a
+{
+  display:inline-block;
+  padding: 0px 20px;
+  color: #707070;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  font-size: 20px;
+}
+.links:first-child
+{
+  background-color:rgba(252, 144, 3, 0.7);
+  border-radius: 30px;
+  padding: 15px 10px 10px 10px;
+  margin-left: 10px;
+}
+
+.links, li, a:hover
+{
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.links:first-child:hover
+{
+  background-color:rgb(252, 144, 3);
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+
+
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(255, 170, 0,0.5);
+  color: white;
+  text-align: center;
+  padding: 15px 0px 13px 0px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s ease;
+  font-size: 20px;
+}
+
+.footer:hover
+{
+  background-color: rgb(255, 170, 0);
+  transition: 0.5s ease;
+}
+.mail
+{
+  color: white;
+  font-size: 20px;
+}
+
+.section
+{
+  width: 40%;
+  background-color: rgba(255, 255, 255,0.1);
+  border-radius: 30px;
+  padding: 50px 10px 50px 10px;
+  font-size: 20px;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  padding-top: px;
+  color: white;
+}
+
+.section1
+{
+  background-color: rgba(255, 213, 0,0.3);
+  width: 40%;
+  border-radius: 30px;
+  padding: 50px 10px 50px 10px;
+  font-size: 20px;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  padding-top: px;
+  color: white;
+}
+
+.orga
+{
+  display: inline-flex;
+  margin: 0px 0px 50px 0px;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+}
+
+.section_li
+{
+  font-size: 20px;
+  color: white;
+  display: grid;
+  padding: 5px;
+}
+
+.section_title
+{
+  padding: 20px;
+  font-size: 30px;
+}
+
+.section_subtitle
+{
+  padding: 20px;
+  font-size: 22px;
+}
