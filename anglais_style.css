@@ -11,6 +11,7 @@
 body
 {
   background-image : url("ressources/background2.png");
+  overflow: hidden;
 }
 .logo
 {
@@ -87,42 +88,52 @@ header
 
 .section
 {
-  width: 40%;
-  background-color: rgba(255, 255, 255,0.1);
-  border-radius: 30px;
-  padding: 50px 10px 50px 10px;
-  font-size: 20px;
-  margin: 10px 10px 10px 10px;
-  text-align: center;
-  padding-top: px;
+  background-color: #ff9d00;
   color: white;
+  font-size: 25px;
+  width: 900px;
+  border-radius: 900px;
+  height: 900px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  position: absolute;
+  left: 100px;
+  top: 250px;
 }
 
 .section1
 {
-  background-color : red;
-  width: 900px;
-  height: 900px;
-  border-radius: 900px;
-  padding: 50px 10px 50px 10px;
-  font-size: 20px;
-  text-align: center;
+  background-color: #e06c00;
   color: white;
+  font-size: 25px;
+  width: 900px;
+  border-radius: 900px;
+  height: 900px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
   position: absolute;
+  left: 1000px;
+  top: 150px;
 }
 
 
-.section_li
+.sectionp
 {
-  font-size: 20px;
-  color: white;
-  display: grid;
-  padding: 5px;
+  font-size: 25px;
+  margin-top: 20px;
 }
 
 .section_title
 {
-  padding: 20px;
+  padding-top: 200px;
   font-size: 30px;
 }
 
