@@ -177,13 +177,26 @@ p
 
 .team_orga
 {
-  width: 100%;
+  background-color: #e06c00;
+  width: 60%;
   position: relative;
   top: 1100px;
   display: inline-flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+}
+.team_orga2
+{
+  background-color: #e06c00;
+  width: 60%;
+  position: relative;
+  top: 1100px;
+  right: 0px;
+  display: inline-flex;
+  justify-content: center;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
 }
 
 .team_title
