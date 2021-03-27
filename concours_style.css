@@ -115,6 +115,8 @@ header
   width: 100%;
   justify-content: center;
   position: absolute;
+  top: 200px
+  margin: auto;
 }
 
 .section_li
@@ -145,5 +147,11 @@ header
 .text2
 {
   padding-top: 10px;
+  text-align: center;
+}
+.title
+{
+  color: rgba(0,0,0,0);
+  font-size: 30px;
   text-align: center;
 }
