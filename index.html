@@ -110,7 +110,8 @@
 <script>
  function hello() {
    let imgcarou = document.querySelector(".carousselpic")
-   imgcarou.src= "ressources/3.jpg"
+   let nb = Math.floor( Math.random() * 6 + 1 );
+   imgcarou.src= "ressources/"+ nb + ".jpg";
  }
 </script>
 
