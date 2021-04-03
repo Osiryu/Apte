@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
-    <body>
+    <body onLoad="javascript:hello()" >
         <a href="index.html"><img class="logo" src="ressources/logo.png" alt="logo" /></a>
 <!-- INTRO ----------------------------------------------------------------------------------------------------->
 <div class="introduction">
@@ -95,7 +95,10 @@
   </div>
 </div>
 
-
+<!--CAROUSSEL-->
+<div class="caroussel">
+  <img class="carousselpic" src="ressources/2.jpg" />
+</div>
 
 
 <!-- FOOTER FINI ----------------------------------------------------------------------------------------------------->
@@ -103,5 +106,18 @@
     Téléphone : 04 75 34 85 73 &nbsp; &nbsp;  E-mail :<a class="mail" href="apteannonay@gmail.com">apteannonay@gmail.com</a> Adresse : Domaine de la gare - 16, avenue de la Gare  07100 ANNONAY - France</p>
 </div>
 <!-- FOOTER FINI ----------------------------------------------------------------------------------------------------->
+
+<script>
+ function hello() {
+   let imgcarou = document.querySelector(".carousselpic")
+   imgcarou.src= "ressources/3.jpg"
+ }
+</script>
+
+
+
+
+
+
 </body>
 </html>

@@ -26,7 +26,7 @@ body
 .introduction
 {
   position: absolute;
-  top: 610px;
+  top: 670px;
   width: 50%;
   padding: 10px 0px 0px 0px;
   margin-left: 10px;
@@ -231,7 +231,7 @@ p
 
 .Comment
 {
-  background-color: rgba(252, 219, 3,0.7);
+  background-color: rgba(255, 111, 0,1);
   margin: 20px;
   position: relative;
   top: 1000px;
@@ -286,11 +286,6 @@ p
   height: 50px;
 }
 
-
-
-
-
-
 .footer {
   position: fixed;
   left: 0px;
@@ -320,4 +315,22 @@ p
 .footer:first-child
 {
   margin-right: 20px;
+}
+
+.carousselpic
+{
+  width: auto;
+  border-radius: 50px;
+  height: 400px;
+
+}
+.caroussel
+{
+  width: auto;
+  height: 250px;
+  position: absolute;
+  top: 270px;
+  left: 20px;
+  height: 400px;
+  width: 50%;
 }
