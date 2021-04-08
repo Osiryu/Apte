@@ -322,6 +322,7 @@ p
   width: auto;
   border-radius: 50px;
   height: 400px;
+  margin: auto;
 
 }
 .caroussel
@@ -333,4 +334,6 @@ p
   left: 20px;
   height: 400px;
   width: 50%;
+  background-color: red;
+  text-align: center;
 }
